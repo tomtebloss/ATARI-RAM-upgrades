@@ -73,16 +73,14 @@ Use [SYSINFO] to test if you have 4Mb.
 
 <img title="Sysinfo v8.37" width="500rem" src="images/sysinfo.png">
 
-
-
 ---
 
-PCB made by DoG in Eagle
+PCB made by Daniel Guldkrans aka DoG in Eagle february 2021.
+
+
+
 
 
 [SYSINFO]: sysinfo/SYSINFO.PRG
 
 
-[FTDI programmer]: https://www.google.com/search?q=FTDI+programmer&tbm=isch&ved=2ahUKEwjl8Pi_q_nyAhXxlosKHXmeC9EQ2-cCegQIABAA&oq=FTDI+programmer&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgQIABBDMgUIABCABDIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjoGCAAQBRAeOgQIABAYUNs_WK1QYM9TaABwAHgAgAFQiAGFAZIBATKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=juU9YeXxEPGtrgT5vK6IDQ&bih=660&biw=1818&hl=en
-[binary]: binary/acsi2stm.v2.1.18MHz.ino.generic_stm32f103c.bin
-[STM32CubeProgrammer]: https://www.st.com/en/development-tools/stm32cubeprog.html
