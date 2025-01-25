@@ -14,7 +14,7 @@ Or changing existing RAM on a 4Mb motherboard.
 
 ## What you will need  
 
-- 4 or 8 PCB. Order with the gerber file "Mega1Mx4bits.zip" from your favorite PCB manufactory. 
+- 4 or 8 PCB. Order with the [gerber] file "Mega1Mx4bits.zip" from your favorite PCB manufactory. 
 - 4 or 8 RAM chips
 - 4 or 8 100nF (0,1uF) 1206 SMD capacitors.
 - 3 pcs 68 ohm 1/4W (0,25W)
@@ -82,5 +82,5 @@ PCB made by Daniel Guldkrans aka DoG in Eagle february 2021.
 
 
 [SYSINFO]: sysinfo/SYSINFO.PRG
-
+[gerber]: gerbers/Mega1Mx4bits.zip
 
