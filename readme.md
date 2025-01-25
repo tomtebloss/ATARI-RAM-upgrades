@@ -8,3 +8,4 @@
   Click on desired folder/motherboard
 </h3>
   
+More RAM PCBs will be added for other motherboards later on. Hopefully...
