@@ -24,7 +24,7 @@ Or changing existing RAM on a 4Mb motherboard.
 
 ## Get yourself some chips 
 
-I buy SIMM modules from eBay and desolder the chips on it with hot air station/gun. But you also by them individually.
+I buy SIMM modules from eBay and desolder the chips on it with hot air station/gun. But you also buy them individually. Below you see a picture of a double sided 8Mb, 72 pin SIMM module. It can have 8 or 9 chips on each side. If 9 chip then one chip would be different and that chip is for the parity bit calculation. I used FPM memory here. I have not tried EDO. 
 
 Chips that can be used on this PCB is 1048576-word by 4-bit dynamic random access memories. Speed is usually between 60ns to 80ns. Lower numer is faster.
 
