@@ -4,14 +4,19 @@ PCB for upgrading an Atari Mega ST2 to 4 Mb.
 
 ---
 
-<img title="Mega ST 2-4 motherboard C100167" width="320rem" align="right" src="images/C100167 motherboard.jpg">
-<img title="RAM PCB" width="320rem" align="right"  src="images/3pcb.jpg">
+ 
+<img title="Mega ST 2-4 motherboard C100167" style="width:50%" align=top src="images/C100167 motherboard.jpg"><img title="RAM PCB" style="width:50%" align=top src="images/3pcb.jpg">
+
+
+---
 
 ## Get yourself some chips
 
 I buy SIMM modules from eBay and desolder the chips on it with hot air station/gun. But you also by them individually.
 
 Chips that can be used on this PCB is 1048576-word by 4-bit dynamic random access memories. Speed is usually between 60ns to 80ns. Lower numer is faster.
+
+<img title="8Mb SIMM 72 pin" style="width:50%" align=right src="images/8Mb 72pin SIMM.jpg">
 
 | Manufacturer     | Chip code |
 | :---             | :---      | 
