@@ -3,14 +3,21 @@ PCB for upgrading an Atari Mega ST2 to 4 Mb.
 </h1>
 
 ---
-
  
-<img title="Mega ST 2-4 motherboard C100167" style="width:50%" align=top src="images/C100167 motherboard.jpg"><img title="RAM PCB" style="width:50%" align=top src="images/3pcb.jpg">
-
+<img title="Mega ST 2-4 motherboard C100167" style="width:41%" align=top src="images/C100167 motherboard.jpg"><img title="RAM PCB" style="width:59%" align=top src="images/3pcb.jpg">
 
 ---
 
-## Get yourself some chips
+## What you will need  
+
+- 4 or 8 PCB. Order with the gerber file "Mega1Mx4bits.zip" from your favorite PCB manufactory. 
+- 4 or 8 RAM chips
+- 4 or 8 100nF (0,1uF) 1206 SMD capacitors.
+- 3 pcs 68 ohm 1/4W (0,25W)
+
+---
+
+## Get yourself some chips 
 
 I buy SIMM modules from eBay and desolder the chips on it with hot air station/gun. But you also by them individually.
 
@@ -38,24 +45,14 @@ Chips that can be used on this PCB is 1048576-word by 4-bit dynamic random acces
 
 ---
 
-## "bluepill"
+## How to
 
-<h1 align="center">
- <img title="Top side of bluepill PCB" width="500rem" src="images/bluepill_top_with_text.jpg">
- <img title="Bottom side of bluepill PCB" width="500rem" src="images/bluepill_bottom_with_text.jpg">
-</h1>
- 
-Some parts can be be used from the [bluepill] board. Most of the passive part on the bluepill is 0603 and although they could have been used on the new board, I opted to use 0805 for everything for easier soldering. They are cheap anyway. All components can however be order individually, you don't have to scavange parts from a bluepill. <strong>20220423: [R10 changed to 1.5K]. BOM updated.</strong>
 
-  * USB connector can probably fit on the new board. But you have to cut of the small plastic pegs underneath. I used new connector on mine.
-  * 8MHz crystal.
-  * 2x3 pinheader (and associated jumper).
-  * Red and yellow LED. I used new LED on mine (green for power (L1) and yellow for activity(L2)).
-  * Right angle pins. Only used for programming. 
-  * Reset switch. There is two different version depending on bluepill model. Only use one on the new board.
-  * STM32.
-  * LDO 5V to 3.3V regulator.
-  * 10uF capacitors.
+| Start by soldering the three missing resistors on R71, R72 and R74 for the RAS2, CASH2L on the motherboard. | <img title="Missing resistors R71, R72 and R74" style="width:50%" src="images/resistors not soldered.jpg"> |
+| :--- | :---: |
+|  |   |
+| :--- | :---: |
+
 
 ---
 
