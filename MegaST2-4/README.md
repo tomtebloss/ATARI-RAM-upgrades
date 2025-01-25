@@ -14,11 +14,11 @@ Or changing existing RAM on a 4Mb motherboard.
 
 ## What you will need  
 
-- 4 or 8 PCB. Order with the [gerber] file "Mega1Mx4bits.zip" from your favorite PCB manufactory. 
-- 4 or 8 RAM chips
-- 4 or 8 100nF (0,1uF) 1206 SMD capacitors.
-- 3 pcs 68 ohm 1/4W (0,25W)
-- Pinheaders 2,54mm spacing
+- 4 or 8 PCBs. Order with the [gerber] file "Mega1Mx4bits.zip" from your favorite PCB manufactory. 
+- 4 or 8 pcs of RAM chips.
+- 4 or 8 pcs of 100nF (0,1uF) 1206 SMD capacitors.
+- 3 pcs 68 ohm 1/4W (0,25W) thru hole resistors.
+- Pinheaders (2,54mm spacing).
 
 ---
 
