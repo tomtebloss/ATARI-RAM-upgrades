@@ -56,7 +56,7 @@ Chips that can be used on this PCB is 1048576-word by 4-bit dynamic random acces
 | :--- | :---: |
 | Cut pinheaders and place on motherboard. Do ***_NOT_*** solder in. PLace PCB on top of unsoldered pins. Solder the RAM PCB first when it's resting on the motherboard pins. Then solder the pins underneath the motherboard. | <img title="PLacement of pins on motherboard" style="width:38%" src="images/pins on motherboard.jpg">   <img title="PLacement of pins on motherboard" style="width:35%" src="images/pins on motherboard 2.jpg"> |
 | There ya go! Now do the rest. Either you only solder in 4 RAM PCB on the empty slots or remove the existing RAM and solder in all 8 is up to you. | <img title="1 RAM PCB soldered in" style="width:37%" src="images/1pcb soldered in.jpg">   <img title="all RAM PCB soldered in" style="width:36%" src="images/8pcb soldered in.jpg"> |
-| Soldering the three missing resistors (68ohm thru hole) on R71, R72 and R74 for the RAS2, CASH2L and CAS2L signals on the motherboard. | <img title="Missing resistors R71, R72 and R74" style="width:36%" src="images/resistors not soldered.jpg">   <img title="Missing resistors R71, R72 and R74" style="width:36%" src="images/resistors CASL2 CASH2 RAS2.jpg"> |
+| Soldering the three missing resistors (68ohm thru hole) on R71, R72 and R74 for the RAS2, CASH2L and CAS2L signals on the motherboard. | <img title="Missing resistors R71, R72 and R74" style="width:32%" src="images/resistors not soldered.jpg">   <img title="Missing resistors R71, R72 and R74" style="width:41%" src="images/resistors CASL2 CASH2 RAS2.jpg"> |
 
 
 
