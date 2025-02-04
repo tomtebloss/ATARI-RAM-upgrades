@@ -8,7 +8,7 @@ Either a 520 STf(m) or a 1040 STf(m).
 
 ---
  
-<img title="Atari STfm motherboard C070859" style="width:53%" align=top src="images/C070859.jpg"><img title="RAM PCB" style="width:46%" align=top src="images/RAM PCB and chips angle.jpg">
+<img title="Atari STfm motherboard C070859" style="width:53%" align=top src="images/C070859.jpg"><img title="RAM PCB" style="width:45%" align=top src="images/RAM PCB and chips angle.jpg">
 
 ---
 
