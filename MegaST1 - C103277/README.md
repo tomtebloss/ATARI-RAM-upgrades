@@ -3,12 +3,12 @@ PCB for upgrading an Atari Mega ST1 to 4 Mb.
 </h1>
 
 <h2 align="center">
-on a C103277 motherboard.
+On a C103277 motherboard.
 </h2>
 
 ---
  
-<img title="C103277 motherboard" style="width:53%" align=top src="images/C103277.jpg"><img title="RAM PCB" style="width:45%" align=top src="images/PCB.jpg">
+<img title="C103277 motherboard" style="width:45%" align=top src="images/C103277.jpg"><img title="RAM PCB" style="width:53%" align=top src="images/PCB.jpg">
 
 ---
 
@@ -44,13 +44,11 @@ Chips that can be used on this PCB is 1048576-word by 16-bit dynamic random acce
 
 ## How to
 
-| Start by desoldering all the ram chips on the motherboard. Either by hot air station/gun or with braid/solder pump. Beware of delaminatiton and warping of the motherboard if you heat it to long on the same place. If you don't have any plans for the old ram, just snipp all the legs on the chips with a flush cutter. Then desolder only the pins you need to fit the RAM PCB. Also some decoupling capacitors needs to be desoldered. They are a bit thicker then the plastic on the pin headers. 
-| <img title="Desolder old chips" style="width:54%" src="images/Desolder old chips.jpg">   <img title="old RAM chips" style="width:45%" src="images/NEC D424256C.jpg">|
-| Solder 2 PCB with chips and capacitors. Take note of the orientation on pin 1 on PCB and chip (pin 1 is marked with circle on PCB. Notch on the left side of chip and text is readable (not upside-down) then pin 1 is located on bottom left side. One of the PCB needs a 33ohm resistor soldered as well. That PCB is the one you will connect the wire from underneath the motherboard. | <img title="RAM PCB soldered" style="width:54%" src="images/PCB soldered.jpg">   <img title="RAM chips" style="width:45%" src="images/RAM chips.jpg"> |
+| Start by desoldering all the ram chips on the motherboard. Either by hot air station/gun or with braid/solder pump. Beware of delaminatiton and warping of the motherboard if you heat it to long on the same place. If you don't have any plans for the old ram, just snipp all the legs on the chips with a flush cutter. Then desolder only the pins you need to fit the RAM PCB. Also some decoupling capacitors needs to be desoldered. They are a bit thicker then the plastic on the pin headers. | <img title="Desolder old chips" style="width:54%" src="images/Desolder old chips.jpg">   <img title="old RAM chips" style="width:45%" src="images/NEC D424256C.jpg">|
 | :--- | :---: |
-| The inductor L50 needs to be pushed upwards a little bit to fit the top RAM PCB in place. Just smush it with your thumb.| <img title="L50 pushed" style="width:54%" src="images/Push L50 up.jpg">   <img title="L50 and RAM PCB in symbiosis" style="width:45%" src="images/PCB fits under L50.jpg"> |
-| Make a 10 pin pinheader strip. Remove pin 3. Drill a 1mm hole where the old pin was. This is done to easier fit the lin between the two boards via a wire or a piece of leg from a component (like a resistor). 
-| <img title="10pin strip" style="width:54%" src="images/Drill 1mm.jpg">   <img title="Pinheaders" style="width:45%" src="images/Pins for one module.jpg">|
+| Solder 2 PCB with chips and capacitors. Take note of the orientation on pin 1 on PCB and chip (pin 1 is marked with circle on PCB. Notch on the left side of chip and text is readable (not upside-down) then pin 1 is located on bottom left side. One of the PCB needs a 33ohm resistor soldered as well. That PCB is the one you will connect the wire from underneath the motherboard. | <img title="RAM PCB soldered" style="width:54%" src="images/PCB soldered.jpg">   <img title="RAM chips" style="width:45%" src="images/RAM chips.jpg">|
+| The inductor L50 needs to be pushed upwards a little bit to fit the top RAM PCB in place. Just smush it with your thumb. | <img title="L50 pushed" style="width:54%" src="images/Push L50 up.jpg">   <img title="L50 and RAM PCB in symbiosis" style="width:45%" src="images/PCB fits under L50.jpg"> |
+| Make a 10 pin pinheader strip. Remove pin 3. Drill a 1mm hole where the old pin was. This is done to easier fit the lin between the two boards via a wire or a piece of leg from a component (like a resistor). | <img title="10pin strip" style="width:54%" src="images/Drill 1mm.jpg">   <img title="Pinheaders" style="width:45%" src="images/Pins for one module.jpg"> |
 | Cut pinheaders and place on motherboard. Do ***_NOT_*** solder in. Do ***_NOT_*** solder pin where it's marked "LINK" on the RAM PCB. Place PCB on top of unsoldered pins. Solder the RAM PCB first when it's resting on the motherboard pins. You could probably fit all pins at the same time. Otherwise do the corners and the bottom one to get the PCB straight. Then lift RAM PCB and put in a few more of the small pin strips in the middle. Put RAM PCB back and solder those. Keep doing until you have all the pins soldered on the RAM PCB. (A note here, the RAM PCB with the 33ohm resistor should be fitted at the bottom of the motherboard). Then put the RAM PCB back on motherboard. Trim the lenght of pins and solder the pins underneath the motherboard. | <img title="Placement of pins on motherboard" style="width:38%" src="images/pin placement 2.jpg">   <img title="Pin placement on RAM PCB" style="width:61%" src="images/PCB with pins underneath.jpg"> |
 | Now we need to make a bridge between the two PCBs. Take a leg from a component. I save cut offs from through hole resistors, capacitors, transistor and other components in a little jar. You could obiously use a small wire as well. Trim to lenght and solder ***_ONLY_*** the two RAM PCB together. The LINK wire should under NO circumstance touch or be solder to the motherboard underneath! So keep the bend down the holes in the RAM PCB short. Like 2mm. | <img title="the LINK" style="width:100%" src="images/link.jpg"> |
 | A9 (or MAD9) needs to be connected from RAM PCB to MMU with a wire. MAD9 is located on [PLCC MMU on pin 64](images/A9%20connected%20on%20PLCC%20pin%2064.jpg) and this is done on the solderside underneath the motherboard. I used some glue gun to fixate the wire in place. | <img title="MAD9 wire connected" style="width:100%" src="images/MAD9 wire soldered.jpg"><br><img title="wire from RAM PCB" style="width:57%" src="images/MAD9 wire bottom RAM PCB.jpg"> <img title="wire to MMU pin 64" style="width:41%" src="images/MAD9 wire PLCC.jpg">|
