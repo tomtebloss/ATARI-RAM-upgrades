@@ -10,5 +10,6 @@
   
 <br>
 
-  More RAM PCBs will be added for other motherboards later on. Hopefully...
+Click on pictures for larger view. Many projects have additionl pictures in the image folder.
+More RAM PCBs will be added for other motherboards later on. Hopefully...
 
