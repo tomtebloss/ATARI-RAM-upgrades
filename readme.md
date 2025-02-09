@@ -10,6 +10,6 @@
   
 <br>
 
-Click on pictures for larger view. Many projects have additional pictures in the image folder to help/guide you.
+Click on pictures for larger view. Many projects have additional pictures in the "images" folder to help/guide you.
 More RAM PCBs will be added for other motherboards later on. Hopefully...
 
