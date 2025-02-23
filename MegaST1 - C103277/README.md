@@ -32,12 +32,15 @@ Chips that can be used on this PCB is 1048576-word by 16-bit dynamic random acce
 
 <img title="8Mb SIMM 72 pin" style="width:55%" align=right src="images/SIMM.jpg">
 
-| Manufacturer      | Chip code  |
-| :---              | :---       |
-| Hitachi           | HM5118160  |
-| OKI Semiconductor | MSM5118165 |
+| Manufacturer      | Chip code   |
+| :---              | :---        |
+| Hitachi           | HM5118160   |
+| OKI Semiconductor | MSM5118165  |
 | Samsung/SEC       | KM416C1200 and K4F151611 |
-| Toshiba           | TMS418160  |
+| Texas Instruments | TMS418160   |
+| NEC               | UPD4218160  |
+| HTL               | HT5118160   |
+| ACTCTS            | TM5116100   | 
 
 
 ---
