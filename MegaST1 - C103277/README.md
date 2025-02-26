@@ -14,7 +14,7 @@ On a C103277 motherboard.
 
 ## What you will need  
 
-- 1 RAM PCB. Order with the [gerber] file "C103277_1Mx16_gerber.zip" from your favorite PCB manufactory. 
+- 2 RAM PCB. Order with the [gerber] file "C103277_1Mx16_gerber.zip" from your favorite PCB manufactory. 
 - 2 pcs of RAM chips (1048576-word by 16-bit) in 42pin SOJ package (TSOP might work, I have not tried).
 - 6 pcs of 100nF (0,1uF) 0805 SMD capacitors.
 - 1 pcs of 33 ohm 0805 SMD resistor.
