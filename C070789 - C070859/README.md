@@ -18,7 +18,7 @@ Either a 520 STf(m) or a 1040 STf(m).
 - 2 pcs of RAM chips (1048576-word by 16-bit) in 42pin SOJ package (TSOP might work, I have not tried).
 - 3 pcs of 100nF (0,1uF) 0805 SMD capacitors.
 - 1 pcs of 33 ohm 0805 SMD resistor.
-- 3 pcs 68 ohm 1/4W (0,25W) thru hole resistors (if it is missing on motherboard).
+- 3 pcs 68 ohm 1/4W (0,25W) through hole resistors (if it is missing on motherboard).
 - Pinheaders (2,54mm spacing).
 - A piece of wire (I used single strand kynar wire).
 
@@ -53,7 +53,7 @@ Start by desoldering all the ram chips on the motherboard. Either by hot air sta
 | :--- | :---: |
 | Cut pinheaders and place on motherboard. I did lower right side then a few here and there to get it straight. Do ***_NOT_*** solder in. Place PCB on top of unsoldered pins. Solder the RAM PCB first when it's resting on the motherboard pins. Lift RAM PCB and put in a few more of the single pins. Put RAM PCB back and solder those. Keep doing until you have all the pins soldered on the RAM PCB. Then put the RAM PCB back on motherboard. Trim the lenght of pins and solder the pins underneath the motherboard. | <img title="Placement of pins on motherboard" style="width:38%" src="images/no solder holes with ring.jpg">   <img title="Pin placment on RAM PCB" style="width:61%" src="images/RAM PCB placed on pins low angle.jpg"> |
 | Looks good. A few steps left now. | <img title="RAM PCB soldered in" style="width:60%" src="images/RAM PCB soldered in angle.jpg">   <img title="RAM PCB soldered in" style="width:38%" src="images/RAM PCB soldered in straight.jpg"> |
-| Solder the three resistors if they are missing (68ohm thru hole) on R71, R72 and R73 for the CAS1H, CAS1L and RAS1 signals on the motherboard. | <img title="Missing resistors R71, R72 and R73" style="width:100%" src="images/resistors not soldered.jpg"> |
+| Solder the three resistors if they are missing (68ohm through hole) on R71, R72 and R73 for the CAS1H, CAS1L and RAS1 signals on the motherboard. | <img title="Missing resistors R71, R72 and R73" style="width:100%" src="images/resistors not soldered.jpg"> |
 | A9 (or MAD9) needs to be connected from RAM PCB to MMU with a wire. MAD9 is located on [PLCC MMU on pin 64](images/A9%20connected%20on%20PLCC%20pin%2064.jpg) and SMD MMU on pin 66. If the PLCC chip is in socket it is easier to solder to pin 64 underneath the motherboard. | <img title="A9 wire connected" style="width:100%" src="images/A9 connected.jpg"><br><img title="SMD MMU" style="width:57%" src="images/mmu smd.png"> <img title="PLCC MMU" style="width:41%" src="images/mmu plcc.png">|
 
 ---
