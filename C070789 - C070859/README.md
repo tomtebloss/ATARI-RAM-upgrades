@@ -41,6 +41,7 @@ Chips that can be used on this PCB is 1048576-word by 16-bit dynamic random acce
 | NEC               | UPD4218160  |
 | HTL               | HT5118160   |
 | ACTCTS            | TM5116100   | 
+| NPN               | NN5118160   |
 
 
 ---
