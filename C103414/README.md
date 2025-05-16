@@ -1,5 +1,5 @@
 <h1 align="center">
-PCB for upgrading an Atari C103414 to 4 Mb.
+Upgrading an Atari C103414 to 4 Mb.
 </h1>
 
 <h2 align="center">
