@@ -26,7 +26,7 @@ You do not need a PCB for this mod.
 
 ## Get yourself some chips 
 
-I buy SIMM modules from eBay and desolder the chips on it with a hot air station/gun. But you can also buy them individually. That will probably be more expensive. Below you see a picture of single sided 1Mb, 30 pin SIMM modules. 4Mb single sided or 8Mb double sided 72pin SIMM can also be found. It can have 2 or 3 chips. It can also have 8 or 9 chips on each side. If 3 or 9 chips SIMM then one chip would be different and that is for the parity bit calculation. That is not needed. I didn't pay attention when I did this project so I apperantly used EDO memory (MT4C4007J) and it seems to work fine. Otherwise FPM is recommended. 72pin seems to be a bit cheaper since they are more common and a "newer" technology. More pictures of [SIMM sticks](images/SIMM/).
+I buy SIMM modules from eBay and desolder the chips on it with a hot air station/gun. But you can also buy them individually. That will probably be more expensive. Below you see a picture of single sided 1Mb, 30 pin SIMM modules. 4Mb single sided or 8Mb double sided 72pin SIMM can also be found. It can have 2 or 3 chips. It can also have 8 or 9 chips on each side. If 3 or 9 chips SIMM then one chip would be different and that is for the parity bit calculation. That is not needed. I didn't pay attention when I did this project so I apparently used EDO memory (MT4C4007J) and it seems to work fine. Otherwise FPM is recommended. 72pin seems to be a bit cheaper since they are more common and a "newer" technology. More pictures of [SIMM sticks](images/SIMM/).
 
 Chips that can be used in this project is 1048576-word by 4-bit dynamic random access memories. Speed is usually between 60ns to 80ns. Lower number is faster.
 
